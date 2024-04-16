@@ -36,6 +36,9 @@ function loopToFive() {
         console.log(i);
     }
 }
+// l'errore è nelle , invece dei ; per separare le parti del ciclo
+//il codice corretto Il codice stampa i numeri da 0 a 4
+
 
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
