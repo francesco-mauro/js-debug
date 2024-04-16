@@ -16,7 +16,7 @@ for (let i = 0; i > 5; i++) {
 }
 // Non sono presenti errori di sintassi, ma il ciclo non può partire perchè i=0 non è maggiore di 5
 // Quindi per farlo funzionare correttamente (o almeno per farlo partire) possdiamo modificare la condizione i > 5 con i < 5
-
+// una volta corretto Il codice dovrebbe stampare i numeri da 0 a 5
 
 // ESERCIZIO 2
 function addIfEven(num) {
@@ -25,6 +25,9 @@ function addIfEven(num) {
     }
     return num;
 }
+// l'errore è che viene utilizzato = invece di ===
+// probabilmente manca anche un else ma il codice sembra funzionarmi anche senza l'insermento dell'else (errore di sintassi?)
+// Il codice corretto aggiungere 5 a un numero se il numero è pari, altrimenti restituisce il numero dispari originario.
 
 
 // ESERCIZIO 3
